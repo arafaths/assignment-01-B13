@@ -11,7 +11,7 @@
 
 /* shared style */
 .btn{
-background-color: #30B868;
+background-color: #2ebf6b;
 border: none;
 padding: 12.5px 16px;
 border-radius: 4px;
@@ -19,6 +19,9 @@ font-size: 16px;
 font-weight: 600;
 color: #FFFFFF;
 cursor: pointer;
+}
+.btn:hover{
+  background-color: #47b830;
 }
 /* Nav-bar */
 #container{
@@ -29,6 +32,7 @@ cursor: pointer;
   justify-content: space-between;
   align-items: center;
   padding: 16px 120px;
+  margin: 0 auto;
  
 }
 #container .logo{
@@ -55,7 +59,7 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   padding: 115.5px 120px 179.5px;
-  
+  margin: 0 auto;
 }
 #banner .banner-content{
   width: 1360px;
@@ -149,7 +153,11 @@ cursor: pointer;
   height: 300px;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.07);
   border-radius: 8px;
+  cursor: pointer;
 
+}
+#box .box-card .card:hover{
+  background-color: rgb(217, 220, 225);
 }
 #box .box-card .card img{
   width: 60px;
@@ -176,6 +184,7 @@ cursor: pointer;
    width: 100%;
   max-width: 1600px;
   background-color: #FFFFFF;
+  margin: 0 auto;
   }
   #solution .solution-container{
     display: flex;
@@ -220,7 +229,7 @@ cursor: pointer;
     width: 100%;
   max-width: 1600px;
   background-color: #FFFFFF;
-  
+  margin: 0 auto;
    }
   #ready .ready-container{
     text-align: center;
@@ -252,4 +261,30 @@ cursor: pointer;
   footer{
     width: 100%;
   max-width: 1600px;
+  background-color: #001931;
+  margin: 0 auto;
+
+  }
+   footer .footer-container{
+    padding: 120px 120px 30px 120px;
+    
+   }
+  footer .footer-container .top-set{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  footer .footer-container .top-set .social{
+    color: #F7F6F2
+  }
+  footer .footer-container .top-set .social .title{
+    padding-bottom: 10px;
+  }
+  
+  footer .footer-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7F6F2;
+    text-align: center;
+    margin-top: 80px;
   }
